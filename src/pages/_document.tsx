@@ -12,6 +12,14 @@ class MyDocument extends Document {
       <Html>
         <Head>
         <link rel="shortcut icon" href="/favicon.ico"/>
+
+
+        {/* Favicon */}
+        <link
+          rel="shortcut icon"
+          type="image/png"
+          href="https://i.ibb.co/3WmYdg9/NFTE-Icon.png"
+        />
         </Head>
         <body>
           <Main />

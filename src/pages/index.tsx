@@ -6,10 +6,10 @@ const Home: NextPage = (props) => {
   return (
     <div>
       <Head>
-        <title>Solana Scaffold</title>
+        <title>SolEth NFT Portal</title>
         <meta
           name="description"
-          content="Solana Scaffold"
+          content="Ethereum NFTs traded on Solana. The full trading experience and collections you love at 1/100th the cost."
         />
       </Head>
       <HomeView />

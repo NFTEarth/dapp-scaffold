@@ -9,15 +9,15 @@ const NetworkSwitcher: FC = () => {
 
   return (
     <label className="cursor-pointer label">
-      <a>Network</a>
+      <a>Select Network</a>
       <select             
         value={networkConfiguration}
         onChange={(e) => setNetworkConfiguration(e.target.value)} 
         className="select max-w-xs"
       >
-        <option value="mainnet-beta">main</option>
-        <option value="devnet">dev</option>
-        <option value="testnet">test</option>
+        <option value="mainnet-beta">Mainnet Beta</option>
+        <option value="devnet">Devnet</option>
+        <option value="testnet">Testnet</option>
       </select>
     </label>
   );
